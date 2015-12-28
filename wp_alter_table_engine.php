@@ -48,7 +48,7 @@ class WATE
             $tables = $wpdb->get_results("show table status like '%'", ARRAY_A);
 
 
-            if (isset($_POST['engines']) and !empty($_POST['engines'])) {
+            if (isset($_POST['engines']) && !empty($_POST['engines'])) {
 
                 $tables = $wpdb->get_results("show table status like '%'", ARRAY_A);
 
