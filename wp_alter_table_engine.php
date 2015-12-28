@@ -2,7 +2,7 @@
 
 /*
 
-Plugin Name: WP_ALERT_TABLE_ENGINE
+Plugin Name: WP_ALER_TABLE_ENGINE
 
 Plugin URI: http://cellmean.com
 
@@ -32,7 +32,7 @@ class WATE
     public function admin_menu()
     {
 
-        add_submenu_page('tools.php', __('WP ALERT TABLE ENGINE', 'wate'), __('WP ALERT TABLE ENGINE', 'wate'), 'manage_options', __('WP ALERT TABLE ENGINE', 'wate'), array(&$this, 'admin_settings'));
+        add_submenu_page('tools.php', __('WP ALTER TABLE ENGINE', 'wate'), __('WP ALTER TABLE ENGINE', 'wate'), 'manage_options', __('WP ALTER TABLE ENGINE', 'wate'), array(&$this, 'admin_settings'));
     }
 
     public function admin_settings()
@@ -81,7 +81,7 @@ class WATE
         ?>
         <div class="wrap">
             <form action="" method="post">
-                <h1><?php _e('WP ALERT TABLE ENGINE', 'wate'); ?></h1>
+                <h1><?php _e('WP ALTER TABLE ENGINE', 'wate'); ?></h1>
 
                 <?php if (!empty($results)): ?>
 
