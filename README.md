@@ -3,7 +3,7 @@
 A tiny tool for Changing the mysql engines of `Wordpress` tables in a click, quite simple wordpress plugin By  [Falcon](http://www.cellmean.com)
 
 ## How To Use:
-put the plugin under the  `wp-content/plugins` , make it actived in your plugins manager , after that click the menu `tools > WP_ALERT_TABLE_ENGINE` to access the plugin page , update MySQL engine is easy, just choose the right one in select menu of each table , and then click the submit button, the plugin will do the less.  
+put the plugin under the  `wp-content/plugins` , make it actived in your plugins manager , after that click the menu `tools > WP_ALERT_TABLE_ENGINE` to access the plugin page , update MySQL engine is easy, just choose the right one in select menu for each table , and then click the submit button, the plugin will do the rest.  
 
 ![demo](http://ww2.sinaimg.cn/large/6f75821dgw1ezfeqrslo2j20qw0kkq5x.jpg)
         
